@@ -1,0 +1,61 @@
+.coin-toss-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  padding: 100px;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 50px;
+  border-style: none;
+  border-radius: 10px;
+}
+.title {
+  color: #a35200;
+  font-size: 44px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+.description {
+  color: #334155;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+.coin-image {
+  height: 250px;
+  width: 250px;
+}
+.button {
+  color: #a35200;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  background-color: #f9d423;
+  border-style: none;
+  border-radius: 6px;
+  height: 30px;
+  width: 100px;
+  margin: 10px;
+}
+.result-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.result {
+  color: #475569;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin: 20px;
+}
